@@ -53,7 +53,7 @@ dat_ho$geo <- fct_relevel(dat_ho$geo, "Austria", "Germany", "France", "Italy", "
 
 ```
 
-# Télétravail
+# Télétravail 
 
 
 ```{r traduction, include = FALSE}
