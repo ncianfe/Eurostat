@@ -3,8 +3,7 @@ title: "Eurostat Home Office"
 author: "Nicola Cianferoni (ABGG)"
 date: "16/2/2021"
 output:
-  html_document:
-    df_print: paged
+ output: github_document
 ---
 
 ```{r setup, include=FALSE}
