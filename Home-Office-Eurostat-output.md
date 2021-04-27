@@ -1,10 +1,10 @@
 Eurostat Home Office
 ================
-Nicola Cianferoni (ABGG)
+Nicola Cianferoni
 16/2/2021
 
 ## Eurostat
 
-# Traduction
+# Télétravail
 
 ![](Home-Office-Eurostat-output_files/figure-gfm/ggplot2-1.png)<!-- -->
