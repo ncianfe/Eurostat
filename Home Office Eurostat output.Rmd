@@ -20,8 +20,6 @@ library(eurostat)
 
 ```
 
-## Eurostat
-
 ```{r Eurostat, include = FALSE}
 
 # Get Eurostat data listing
@@ -53,9 +51,6 @@ dat_ho$geo <- fct_relevel(dat_ho$geo, "Austria", "Germany", "France", "Italy", "
 
 ```
 
-# Télétravail 
-
-
 ```{r traduction, include = F}
 
 
@@ -70,11 +65,10 @@ dat_ho_fr$frequenc <- fct_recode(dat_ho_fr$frequenc, "Jamais" = "Never", "Habitu
 
 frq(dat_ho_fr$frequenc)
 
-
 ```
 
 
-```{r ggplot2, fig.height=25, fig.width=30}
+```{r ggplot2, echo = T, fig.height=25, fig.width=30}
 
 dat_ho_fr %>% 
   filter(sex == "Total", age == "From 50 to 64 years", wstatus == "Employees") %>% 
