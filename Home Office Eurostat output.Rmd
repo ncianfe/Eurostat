@@ -68,19 +68,19 @@ frq(dat_ho_fr$frequenc)
 ```
 
 
-```{r ggplot2, echo = T, fig.height=25, fig.width=30}
+```{r ggplot2, echo=T, fig.height=3, fig.width=5}
 
 dat_ho_fr %>% 
   filter(sex == "Total", age == "From 50 to 64 years", wstatus == "Employees") %>% 
   ggplot() +
   aes(x = time, y = values, colour = Pays) +
-  geom_line(size=3) +
+  geom_line(size=1) +
   ggtitle("Personnes en emploi travaillant à domicile") +
   xlab("") +
   ylab("% (total de l'emploi entre 15 et 64 ans)") +
   labs(caption="Source: Eurostat, variable lfsa_ehomp") +
   facet_wrap(~ frequenc, dir = "h") +
-  theme_bw(base_size = 50)
+  theme_bw(base_size = 10)
 
 ```
 
