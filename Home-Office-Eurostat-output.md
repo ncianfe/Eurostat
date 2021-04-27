@@ -1,23 +1,10 @@
----
-title: "Eurostat Home Office"
-author: "Nicola Cianferoni"
-date: "16/2/2021"
-output:
-  html_document:
-    keep_md: true
----
-
-
+Eurostat Home Office
+================
+Nicola Cianferoni
+16/2/2021
 
 ## Eurostat
 
+# Télétravail
 
-
-# Télétravail 
-
-
-
-
-
-![](Home-Office-Eurostat-output_files/figure-html/ggplot2-1.png)<!-- -->
-
+![](Home-Office-Eurostat-output_files/figure-gfm/ggplot2-1.png)<!-- -->
